@@ -60,8 +60,10 @@ export default class Box extends Component {
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
-  detalhes = () =>{
-    alert("ola");
+  detalhes = (id) =>{
+    
+    this.props.history.push(`/audios/${id}`);
+
   }
 
   upload = () =>{
@@ -187,21 +189,7 @@ export default class Box extends Component {
             <li>Concluído: Seu arquivo já foi transcrito, você pode baixa-lo agora.</li> 
           </ol>
 
-          <Grid style={{ marginTop: '50px', marginBottom: '30px' }} columns={3}>
-
-            <Grid.Row>
-              <Grid.Column>
-                <Image  src='https://react.semantic-ui.com/images/avatar/large/matthew.png' />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' />
-              </Grid.Column>
-              <Grid.Column>
-                <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' />
-              </Grid.Column>
-            </Grid.Row>        
-            
-          </Grid>
+         
 
           <Divider />
           

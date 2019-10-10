@@ -20,11 +20,10 @@ export default class MenuPage extends Component {
         <Menu fixed='top' inverted>
           <Container>
             <Menu.Item as='a' header>
-              <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} />
-              Project Name
+              
+              Listen 2 me
             </Menu.Item>
-            <Menu.Item as='a'>Home</Menu.Item>
-            <Menu.Item as='a'>Sobre</Menu.Item>
+            <Menu.Item as='a' href="/">Home</Menu.Item>
 
               
           </Container>

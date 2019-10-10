@@ -37,7 +37,7 @@ export default function TableBox({ audios, detalhes })  {
             <Table.Row key={ audio.fileId }>
               <Table.Cell><Icon color="orange" size="large" name="file audio" />  { audio.title } </Table.Cell>
               <Table.Cell>{ showStatus(audio.fileStatus) }</Table.Cell>
-              <Table.Cell textAlign="center"> <a href="#" onClick={ () => detalhes(audio.fileId) } > Detalhes </a> </Table.Cell>
+              <Table.Cell textAlign="center"> <Button onClick={ () => detalhes(audio.fileId) } > Detalhes </Button> </Table.Cell>
             </Table.Row>))
           }
           </Table.Body>
