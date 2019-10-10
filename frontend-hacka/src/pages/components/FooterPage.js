@@ -13,55 +13,37 @@ export default class FooterPage extends Component {
           <Container textAlign='center'>
             <Grid divided inverted stackable>
               <Grid.Column width={3}>
-                <Header inverted as='h4' content='Group 1' />
+                <Header inverted as='h4' content='Endereço' />
                 <List link inverted>
-                  <List.Item as='a'>Link One</List.Item>
-                  <List.Item as='a'>Link Two</List.Item>
-                  <List.Item as='a'>Link Three</List.Item>
-                  <List.Item as='a'>Link Four</List.Item>
+                  <List.Item as='a'>Av. José de Freitas Queiroz, 5003</List.Item>
+                  <List.Item as='a'>Cedro – Quixadá – Ceará</List.Item>
+                  
                 </List>
               </Grid.Column>
-              <Grid.Column width={3}>
-                <Header inverted as='h4' content='Group 2' />
+              <Grid.Column width={6}>
+                <Header inverted as='h4' content='Fale Conosco' />
                 <List link inverted>
-                  <List.Item as='a'>Link One</List.Item>
-                  <List.Item as='a'>Link Two</List.Item>
-                  <List.Item as='a'>Link Three</List.Item>
-                  <List.Item as='a'>Link Four</List.Item>
+                  <List.Item as='a'>diegogaprs2@gmail.com</List.Item>
+                  <List.Item as='a'>henriquesales@alu.ufc.br</List.Item>
+                  <List.Item as='a'>hernanytec22@gmail.com</List.Item>
+                  <List.Item as='a'>ls440552@gmail.com</List.Item>
                 </List>
               </Grid.Column>
-              <Grid.Column width={3}>
-                <Header inverted as='h4' content='Group 3' />
-                <List link inverted>
-                  <List.Item as='a'>Link One</List.Item>
-                  <List.Item as='a'>Link Two</List.Item>
-                  <List.Item as='a'>Link Three</List.Item>
-                  <List.Item as='a'>Link Four</List.Item>
-                </List>
-              </Grid.Column>
+              
               <Grid.Column width={7}>
-                <Header inverted as='h4' content='Footer Header' />
+                <Header inverted as='h4' content='Propósito' />
                 <p>
-                  Extra space for a call to action inside the footer that could help re-engage users.
+                  Esse projeto foi realizado com o objetivo de participar da 1ª Hackaton Inove em conjunto com o Grupo Atlântica.
                 </p>
               </Grid.Column>
             </Grid>
 
             <Divider inverted section />
-            <Image centered size='mini' src='/logo.png' />
             <List horizontal inverted divided link size='small'>
               <List.Item as='a' href='#'>
-                Site Map
+                © Copyright 2019. Listen2Me.
               </List.Item>
-              <List.Item as='a' href='#'>
-                Contact Us
-              </List.Item>
-              <List.Item as='a' href='#'>
-                Terms and Conditions
-              </List.Item>
-              <List.Item as='a' href='#'>
-                Privacy Policy
-              </List.Item>
+              
             </List>
           </Container>
         </Segment>

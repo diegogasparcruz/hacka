@@ -19,6 +19,7 @@
 #box-container header img {
   padding-top: 15px;
   margin-right: 10px;
+  margin-bottom: 25px;
 }
 
 #box-container header button:hover {
@@ -72,7 +73,6 @@
 
 
 #form-audio{
-  width: 500px;
   margin: 50px auto;
 }
 
@@ -84,4 +84,8 @@
 *  {
   margin:0;
   padding:0;
+}
+
+.descricao{
+  margin-left: 30px;
 }
